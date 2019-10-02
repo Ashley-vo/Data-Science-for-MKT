@@ -1,0 +1,34 @@
+First: Explore the data set
+
+Scope: 41188 opservation
+No null value
+
+
+In this case study, the conversion is the output variable of the data - column"Y"
+
+Analyse KPI:
+
+1. General conversion rate is: 
+Total conversion is 4640 out of 41188.
+The conversion rate is: 11.27%
+
+2. Conversion rate by age
+
+3. Conversiton rate (%)by age groups: 
+
+	70+         47.121535
+	[18, 30)    16.263891
+	[30, 40)    10.125162
+	[40, 50)     7.923238
+	[50, 60)    10.157389
+	[60, 70)    34.668508
+
+4. Discover marial status 
+ -Conversion rate by marital status: 
+	divorced    10.320902
+	married     10.157253
+	single      14.004149
+	unknown     15.000000
+5. Two attributes matrix
+
+
