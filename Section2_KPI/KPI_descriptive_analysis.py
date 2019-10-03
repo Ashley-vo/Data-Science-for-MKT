@@ -42,6 +42,17 @@ def conversion_rate_bar_plot(converted_series):
     plt.show()
 
 
+def pivot_table_and_plot(data,value,index_column,column):
+    """
+    This function compare the distribution of a filed(variable) among the output groups(Engaged vs Not Engaged)
+    """
+    engagement_df = pd.pivot_table(
+        data, values=value, index=index_column, columns=column, aggfunc=len).fillna(0.0)
+    engagement_df.columns = [str("Not " + column), str(column)]
+    print(engagement_df)
+    ax = engagement_df.plot(kind='pie',figsize=(15, 7), startangle=90, subplots=True, autopct=lambda x: '%0.1f%%' % x)
+    plt.show()
+
 def two_variables_conversion(df,va1,va2):
     """
     :param df: input data frame
@@ -74,6 +85,9 @@ if __name__ == '__main__':
 
     # convert output variable into 0-1 values
     df["conversion"] = df["y"].apply(lambda x: 1 if x == "yes" else 0)
+
+
+    pivot_table_and_plot(df,"y","marital","conversion")
 
     new_df = age_segmentation(df)
 
