@@ -1,0 +1,26 @@
+
+
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                Engaged   No. Observations:                 9134
+Model:                          Logit   Df Residuals:                     9126
+Method:                           MLE   Df Model:                            7
+Date:                Thu, 03 Oct 2019   Pseudo R-squ.:                -0.02546
+Time:                        11:55:11   Log-Likelihood:                -3847.1
+converged:                       True   LL-Null:                       -3751.6
+Covariance Type:            nonrobust   LLR p-value:                     1.000
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Customer Lifetime Value       -6.741e-06   5.04e-06     -1.337      0.181   -1.66e-05    3.14e-06
+Income                        -2.857e-06   1.03e-06     -2.766      0.006   -4.88e-06   -8.33e-07
+Monthly Premium Auto             -0.0084      0.001     -6.889      0.000      -0.011      -0.006
+Months Since Last Claim          -0.0202      0.003     -7.238      0.000      -0.026      -0.015
+Months Since Policy Inception    -0.0060      0.001     -6.148      0.000      -0.008      -0.004
+Number of Open Complaints        -0.0829      0.034     -2.424      0.015      -0.150      -0.016
+Number of Policies               -0.0810      0.013     -6.356      0.000      -0.106      -0.056
+Total Claim Amount                0.0001      0.000      0.711      0.477      -0.000       0.000
+=================================================================================================
+
+From the model, the variables "Income", "Monthly Premium Auto", "Months Since Last Claim", "Months Since Policy Inception", "Number of Open Complaints", "Number of Policies" have significantly negative relationship with the customer engagement
+Other variables such as CLV and Total Claim Amount dont have signification relationship with the customer engagement
