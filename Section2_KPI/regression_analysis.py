@@ -21,7 +21,7 @@ def engagement_rate(data,groups,countvalue):
 
 
 def box_plot(data,x_axis_value,y_axis_value):
-    ax = df[[x_axis_value, y_axis_value]].boxplot(by=x_axis_value,showfliers=False, figsize=(7, 5))
+    ax = data[[x_axis_value, y_axis_value]].boxplot(by=x_axis_value,showfliers=False, figsize=(7, 5))
     ax.set_xlabel(x_axis_value)
     ax.set_ylabel(y_axis_value)
     plt.suptitle("")
