@@ -1,0 +1,43 @@
+Overal about data: 
+
+balance : Bank balance
+
+Descriptive 
+
+
+Conversion rate(%) by job
+job
+admin.           12.202669
+blue-collar       7.274969
+entrepreneur      8.271688
+housemaid         8.790323
+management       13.755551
+retired          22.791519
+self-employed    11.842939
+services          8.883004
+student          28.678038
+technician       11.056996
+unemployed       15.502686
+unknown          11.805556
+
+==> "student" with highest conversion rate. next is "retired" groups 
+
+
+default rate by conversion: 
+
+
+         Not conversion  conversion
+default                            
+no                39159        5237
+yes                 763          52
+
+The rate in non-conversion groups is twice(1.9%) as much as the conversion group(1%)
+
+Conversion rate by contact number
+Mostly, the more contact, the less conversion rate
+
+
+Encode catergories into numberic 
+
+
+
