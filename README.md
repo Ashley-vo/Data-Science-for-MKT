@@ -14,9 +14,8 @@ This repo will have case studies from the book, cover following topics:
 2. Regression Analysis
 3. Decision Tree to analyse conversion rate
 4. Product Analysis
-5. Recommendation system
-6. K-mean clustering
-7. A/B testing for beter marketing strategy
+5. K-mean clustering
+6. A/B testing for beter marketing strategy
 
 I would modify the code from the book and add more algorithm and insight from my own perception. You are more than welcomed to contribute more suggestion for the code to make it effective and memory wise. 
 
