@@ -1,0 +1,50 @@
+# Data overview 
+
+Shape: 541909,8
+
+Data columns (total 8 columns):
+InvoiceNo      541909 non-null object
+StockCode      541909 non-null object
+Description    540455 non-null object
+Quantity       541909 non-null int64
+InvoiceDate    541909 non-null datetime64[ns]
+UnitPrice      541909 non-null float64
+CustomerID     406829 non-null float64
+Country        541909 non-null object
+
+
+  Quantity      UnitPrice     CustomerID
+count  541909.000000  541909.000000  406829.000000
+mean        9.552250       4.611114   15287.690570
+std       218.081158      96.759853    1713.600303
+min    -80995.000000  -11062.060000   12346.000000
+25%         1.000000       1.250000   13953.000000
+50%         3.000000       2.080000   15152.000000
+75%        10.000000       4.130000   16791.000000
+max     80995.000000   38970.000000   18287.000000
+
+
+The negative value of quantity represent for cancelled and refunded orders. 
+
+
+# Clean data
+
+- In this analyse, we will focus on complete order only --> eleminate cancelled and refunded orders
+
+UniPrice negative ???
+
+- The data in 12.2011 is incomplete which is only content data from 01-09 of December 2011--> disregard data from 01-12-2011
+
+
+After clearning, the shape of dataset is (506150, 8)
+
+# Analyse
+
+## Order and revenue by time
+
+## Repeat customer
+
+
+
+
+

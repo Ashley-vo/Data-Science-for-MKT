@@ -49,5 +49,6 @@ if __name__ == '__main__':
     s2 = data_frame.loc[data_frame['Promotion'] == 2, 'SalesInThousands']
     s3 = data_frame.loc[data_frame['Promotion'] == 3, 'SalesInThousands']
 
+
     t_test(s1,s2)
     t_test(s1,s3)
