@@ -43,7 +43,6 @@ if __name__ == '__main__':
     plot_market_size(data_frame)
     plot_age_of_store(data_frame)
 
-
     #sample groups
     s1 = data_frame.loc[data_frame['Promotion'] == 1, 'SalesInThousands']
     s2 = data_frame.loc[data_frame['Promotion'] == 2, 'SalesInThousands']
