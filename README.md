@@ -9,15 +9,24 @@ I highly recommend the course for everyone who wants to learn how to interpret t
 Although you can apply all the code from the book, I recommend you to have some basic programming knowledge to understand the code and can dela with some possible error 
 
 ## Contents
-This repo will have case studies from the book, cover following topics: 
-1. Marketing KPI and visualization
-2. Regression Analysis
-3. Decision Tree to analyse conversion rate
-4. Product Analysis
-5. K-mean clustering
-6. A/B testing for beter marketing strategy
+### Session 1 - Descriptive and explonaroty Analysis
+* The descriptive analysis will cover the common KPI in marketing track the progress of marketing campaigns such as sales revenue, CPA and conversion rate
+* Beyond measuring customer engagement, the company needs to understand what are the factors influence these engegements. That is where we conduct explanatory analysis. 
+In this example, the **logistic regression model** will be used to analyse the correlation between the sales & customer attributes and customer's engagement
+* Last part of this session is to use the **decision tree model** to understand driven behind customer behavior
 
-I would modify the code from the book and add more algorithm and insight from my own perception. You are more than welcomed to contribute more suggestion for the code to make it effective and memory wise. 
+### Session 2 - Product analytics
+This session includes: 
+* first, analyse the **time series trend** in revenue and purchase of repeat customer
+* then, extract the trending items over time
+The goal of this session is to find out potential or trending product for further recommendation.
+### Session 4 - Personalize marketing
+* Customer analytic (engagement rate segmentation) to understand customer behavior
+* Predictive analytic with random forest classification
+* Predict Customer lifetime value with linear regression
+
+### Session 5 - A/B testing for better marketing strategy
+The goal of this session is to identify the statistical hypothesis and use **A/B test with t-test** to evaluate the significant of the hypothesis conclusion
 
 ## Language
-Python 3
+Python 3 - numpy, pandas, matplotlib, seaborn, sklearn
