@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
 import statsmodels.api as sm
 from Section2_KPI.KPI_descriptive_analysis import pivot_table_and_plot
 
