@@ -5,8 +5,7 @@ You can find more about this book in here : https://learning.oreilly.com/library
 
 Overal, the book covers practical marketing concepts which are widely used nowadays. The theory in this book is concrete. There are two programming language (Python and R) that you can choose up to your preference.  
 
-I highly recommend the course for everyone who wants to learn how to interpret the data into meaning marketing messages.
-Although you can apply all the code from the book, I recommend you to have some basic programming knowledge to understand the code and can dela with some possible error 
+There are ready made code written in the book. In this repo, I re-write python code, make the functions to automate and optimize repeat analyzing steps
 
 ## Contents
 ### Session 1 - Descriptive and explonaroty Analysis
